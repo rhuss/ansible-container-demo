@@ -1,0 +1,5 @@
+---
+- name: Create "hello world" HTML page
+  copy:
+    content: "<html><body><h1>Hello Ansible Container !</h1></body></html>"
+    dest: /static/index.html
